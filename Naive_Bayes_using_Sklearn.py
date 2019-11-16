@@ -21,3 +21,7 @@ target_pred = clf.predict(features_test)
 print("The Prediction is : ",target_pred)
 
 print("The Accuracy is : ",accuracy_score(target_pred,target_test))
+if(accuracy_score(target_pred,target_test)>50):
+  print("Exceptable")
+else:
+  print("Not Exceptable")
